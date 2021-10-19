@@ -1,7 +1,7 @@
 /*Especificidad: 001*/
 body {
   display:grid;
-  grid:  "ad ad ad ad" "hd hd hd hd "  "m m m m"  "f f f f";
+  grid:   "hd hd hd hd " "ad ad ad ad"  "m m m m"  "f f f f";
 
   font-family: Tahoma, sans-serif;
   color: #818181;
