@@ -14,8 +14,8 @@ body {
   }
   main{
     grid-area: m;
-    border: 4px salmon;
-    margin-bottom : 5px;
+    border: 0.1em salmon;
+    margin-bottom : 0.1em;
   }
   address{
     grid-area: ad;
@@ -46,18 +46,18 @@ table th{
   font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   text-align: center; 
-  border:  4px solid rgb(0, 0, 0);
+  border:  0.1em solid rgb(0, 0, 0);
 }
 table td{
   color:white;
   font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   text-align: center; 
-  border:  4px solid rgb(0, 0, 0);
+  border:  0.1em solid rgb(0, 0, 0);
 }
 table tr{
   color:white;
-  border:  4px solid rgb(0, 0, 0);
+  border:  0.1em solid rgb(0, 0, 0);
 }
 
 p{

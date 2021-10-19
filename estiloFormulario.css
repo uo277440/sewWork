@@ -14,8 +14,8 @@ body {
   }
   main{
     grid-area: m;
-    border: 4px salmon;
-    margin-bottom : 5px;
+    border: 0.1em salmon;
+    margin-bottom :0.1em;
   }
   address{
     grid-area: ad;
