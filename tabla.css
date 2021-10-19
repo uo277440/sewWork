@@ -111,7 +111,10 @@ legend{
     text-transform: uppercase;
     padding: 2em; 
 }
-
+a{
+  color: rgb(255, 255, 255); 
+  text-align: center; 
+}
 
   
     
