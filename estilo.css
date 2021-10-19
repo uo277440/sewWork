@@ -1,7 +1,7 @@
 /*Especificidad: 001*/
 body {
   display:grid;
-  grid:  "ad ad ad" "hd hd hd "  "f m m " ;
+  grid:  "ad ad ad ad" "hd hd hd hd "  "m m m m"  "f f f f";
 
   font-family: Tahoma, sans-serif;
   color: #818181;
@@ -23,44 +23,60 @@ body {
   footer{
     grid-area: f;
     min-width: 10em;
+    font-size:xx-small;
+    background-color: rgb(197, 154, 106);
   }
+  
+  
 /*Especificidad: 001*/
 h1 {
+  border-style:dashed;
+  font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;    
   background-color:#775a5a; 
   text-transform: uppercase;
   padding: 2em; 
-     
+  text-align: center;     
   }
 nav {
     color: #fff;    
     background-color:#775a5a; 
     text-transform: uppercase;
     padding: 2em; 
-       
+    text-align: center;     
     }
-th{
-  color: #fff;    
-  background-color:#775a5a; 
-  text-transform: uppercase;
-  padding: 2em; 
-  
-}
 table{
-  color: #fff;    
+  color:white;
   background-color:#775a5a; 
-  text-transform: uppercase;
-  padding: 2em; 
-  
+  border-collapse: collapse;
 }
-p{
-  color: #fff;    
-  background-color:#775a5a; 
+table th{
+  color:white;
+  font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
-  padding: 2em; 
-  
+  text-align: center; 
+  border:  0.1em solid rgb(0, 0, 0);
+}
+table td{
+  color:white;
+  font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-align: center; 
+  border:  0.1em solid rgb(0, 0, 0);
+}
+table tr{
+  color:white;
+  border:  0.1em solid rgb(0, 0, 0);
+}
+
+
+p{
+  color: rgb(255, 255, 255); 
+  background-color:rgba(155, 128, 94, 0.603);
 }
 li{
+  border-style:inset;
+  font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;    
   background-color:#775a5a; 
   text-transform: uppercase;
@@ -68,6 +84,7 @@ li{
   
 }
 caption{
+  font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;    
   background-color:#775a5a; 
   text-transform: uppercase;
@@ -75,11 +92,12 @@ caption{
   
 }
 title{
+  font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;    
   background-color:#775a5a; 
   text-transform: uppercase;
   padding: 2em; 
-  
+  text-align: center; 
 }
 fieldset{
   color: rgb(46, 37, 37);    
