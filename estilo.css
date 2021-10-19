@@ -5,7 +5,7 @@ body {
 
   font-family: Tahoma, sans-serif;
   color: #818181;
-  background-color: rgb(128, 120, 87);
+  background-color:#ac8d54; 
   }
 
   header{
@@ -25,7 +25,7 @@ body {
     grid-area: f;
     min-width: 10em;
     font-size:xx-small;
-    background-color: rgb(197, 154, 106);
+    background-color:#775a5a; 
   }
   
   
@@ -57,7 +57,7 @@ table th{
   text-transform: uppercase;
   text-align: center; 
   border:  0.1em solid rgb(0, 0, 0);
-  background-color: rgb(197, 154, 106);
+  background-color:#775a5a; 
 }
 table td{
   color:white;
@@ -65,18 +65,18 @@ table td{
   text-transform: uppercase;
   text-align: center; 
   border:  0.1em solid rgb(0, 0, 0);
-  background-color: rgb(197, 154, 106);
+  background-color:#775a5a; 
 }
 table tr{
   color:white;
   border:  0.1em solid rgb(0, 0, 0);
-  background-color: rgb(197, 154, 106);
+  background-color:#775a5a; 
 }
 
 
 p{
   color: rgb(255, 255, 255); 
-  background-color:rgba(155, 128, 94, 0.603);
+  background-color:#775a5a; 
   
 }
 li{
@@ -91,7 +91,7 @@ li{
 caption{
   font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;    
-  background-color:rgba(155, 128, 94, 0.603);
+  background-color:#775a5a; 
   text-transform: uppercase;
   padding: 2em; 
   
@@ -99,14 +99,14 @@ caption{
 title{
   font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;    
-  background-color:rgba(155, 128, 94, 0.603);
+  background-color:#775a5a; 
   text-transform: uppercase;
   padding: 2em; 
   text-align: center; 
 }
 fieldset{
   color: rgb(46, 37, 37);    
-    background-color:#775a5a; 
+  background-color:#775a5a; 
     text-transform: uppercase;
     padding: 2em; 
     
@@ -116,19 +116,19 @@ label{
     
     text-transform: uppercase;
     padding: 2em; 
-    background-color:rgba(155, 128, 94, 0.603);
+    background-color:#775a5a; 
      
 }
 legend{
   color: rgb(0, 0, 0);    
     text-transform: uppercase;
     padding: 2em; 
-    background-color:rgba(155, 128, 94, 0.603);
+    background-color:#775a5a; 
 }
 a{
   color: rgb(255, 255, 255); 
   text-align: center; 
-  background-color:rgba(155, 128, 94, 0.603);
+  background-color:#775a5a; 
 }
 
   
