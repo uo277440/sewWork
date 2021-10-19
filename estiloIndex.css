@@ -1,7 +1,7 @@
 /*Especificidad: 001*/
 body {
   display:grid;
-  grid:  "ad ad ad" "hd hd hd "  "f m m " ;
+  grid:  "ad ad ad" "hd hd hd "  "m m m " "f f f";
 
   font-family: Tahoma, sans-serif;
   color: #818181;
@@ -30,14 +30,14 @@ h1 {
   background-color:#775a5a; 
   text-transform: uppercase;
   padding: 2em; 
-     
+  text-align: center;     
   }
 nav {
     color: #fff;    
     background-color:#775a5a; 
     text-transform: uppercase;
     padding: 2em; 
-       
+    text-align: center;     
     }
 th{
   color: #fff;    
@@ -79,7 +79,7 @@ title{
   background-color:#775a5a; 
   text-transform: uppercase;
   padding: 2em; 
-  
+  text-align: center; 
 }
 fieldset{
   color: rgb(46, 37, 37);    
@@ -99,6 +99,10 @@ legend{
   color: rgb(0, 0, 0);    
     text-transform: uppercase;
     padding: 2em; 
+}
+a{
+  color: rgb(255, 255, 255); 
+  text-align: center; 
 }
 
 
