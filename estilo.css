@@ -116,14 +116,14 @@ label{
     
     text-transform: uppercase;
     padding: 2em; 
-    background-color:#775a5a; 
+    background-color:unset;
      
 }
 legend{
-  color: rgb(0, 0, 0);    
+  color: #fff;
     text-transform: uppercase;
     padding: 2em; 
-    background-color:#775a5a; 
+    background-color:unset;
 }
 a{
   color: rgb(255, 255, 255); 
