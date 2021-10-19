@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name=author content="Lucas Martínez Rego" />
 	<meta name=description content="Web en la que se recogerán las aportaciones de Bill Gates al mundo de la informática" />
-	<meta name=keywords content="Bill,informática,Microsoft" />
+	<meta name=keywords content="Bill,informática,Microsoft,Aportaciones,Windows />
     <title>SEW.P0</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
@@ -26,46 +26,37 @@
  </nav>
 
 
-<form name="datos">
-<input type="number">Number<br>
-<br>
-<input type="email" >E-mail<br>
-<br>
-<input type="text" >Nombre<br>
-<br>
-<input type="text" >Apellido<br>
-<br>
-<input type="date">Fecha nacimiento<br>
-<br>
-<label>Selecciona las aportaciones que considere más importantes: </label><br>
-<br>
-<input type="checkbox" value="HTML5"
+<form name="Valoración">
+<fieldset>
+<legend>Datos:</legend>
 
-checked>Creación del S.O Windows<br>
-<br>
-<input type="checkbox"
+            <label for="name">Nombre    :</label><br />
+            <input id="surname" type="text" >
+            <label for="surname">Apellidos  :</label><br />
+            <input id="fecha" type="date">
+            <label for="fecha">Fecha  nacimiento :</label><br />
+            <input id="email" type="email">
+            <label for="email">Email :</label><br />
+</fieldset>
 
-value="CSS3">Popularizar el uso del ordenador personal <br>
-<br>
-<input type="checkbox"
+        <fieldset>
+<fieldset>
+            <legend>¿Que aportacion te parece más importante?</legend>
+                <input id ="creacion" type="checkbox" name ="lenguaje" value="Creacion S.O Window" checked/>
+                <label for="creacion">Creacion S.O Window</label><br />
+                <input id ="personal" type="checkbox" name ="lenguaje" value="Popularizar el uso del ordenador personal"/>
+                <label for="personal">Popularizar el uso del ordenador personal</label><br />
+                <input id ="fundacion" type="checkbox" name ="lenguaje" value="Fundación Bill y Melinda Gates"/>
+                <label for="fundacion">Fundación Bill y Melinda Gates</label><br />
+        </fieldset>
+		
+		  <fieldset>
+            <legend> Que nota le pondría al formulario?</legend><br>
+                <input id="valoracion" type="number" >
+                <label for="valoracion">Nota</label><br />
+        </fieldset>
 
-value="JavaScript">Ayudar en la salvación de Apple<br>
-<br>
-
-
-<input type="checkbox"
-
-value="JavaScript">Fundación Bill y Melinda Gates<br>
-<br>
-
-<input type="checkbox"
-
-value="JavaScript">Máquina que genera agua potable y electricidad sostenible<br>
-<br>
-
-<input type="button"
-
-value="Enviar">
+ <input id="boton" type="submit" value="Enviar">
 </form>
 </body>
 </html>
